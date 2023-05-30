@@ -1,0 +1,34 @@
+{
+  "range": "TK5_Panel!A1:Z1000",
+  "majorDimension": "ROWS",
+  "values": [
+    [
+      "Oznaka",
+      "Debljina(mm)",
+      "Duzina(m)",
+      "Sirina(m)",
+      "Cena € (m^2) bez PDV",
+      "Cena € (m^2) sa PDV",
+      "Boja",
+      "Opis"
+    ],
+    [
+      "TK5/PU/30",
+      "30",
+      "13.5",
+      "1",
+      "17",
+      "20.4",
+      "Bela (9002)"
+    ],
+    [
+      "TK5/PU/50",
+      "50",
+      "13.5",
+      "1",
+      "19.2",
+      "23",
+      "Bela (9002)"
+    ]
+  ]
+}
