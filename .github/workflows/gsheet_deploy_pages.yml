@@ -1,0 +1,96 @@
+name: deploy_on_gSheet_update
+
+on:
+  schedule:
+    - cron: "0 9,17 * * *"
+  
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one concurrent deployment
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+ build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v3
+      
+      - shell: bash
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: |
+          echo 'gsheet_changed_json<<EOF' >> $GITHUB_ENV
+          curl curl "https://www.googleapis.com/drive/v3/files/${SHEET_ID}?fields=modifiedTime&key=${API_KEY}" >> $GITHUB_ENV
+          echo 'EOF' >> $GITHUB_ENV
+          touch empty.json
+          
+      - name: Cache dependencies
+        id: cacheModified
+        uses: actions/cache@v3.0.11
+        with:
+          path: ./empty.json
+          key: gSheetLastChanged_${{ fromJson(env.gsheet_changed_json).modifiedTime }}
+
+      - name: Setup Node.js
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        uses: actions/setup-node@v3.5.1
+        with:
+          node-version: '18'
+
+      - name: Cache dependencies
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        id: cache
+        uses: actions/cache@v3.0.11
+        with:
+          path: ./node_modules
+          key: modules-${{ hashFiles('package-lock.json') }}
+
+      - name: Install dependencies
+        if: steps.cacheModified.outputs.cache-hit != 'true' && steps.cache.outputs.cache-hit != 'true'
+        run: npm ci --ignore-scripts
+
+      - name: Create .env file
+        shell: bash
+        run: |
+          domain_name=$(cat ./CNAME)
+          echo PUBLIC_SITE_URL=\"https://$domain_name\" > .env
+          echo PUBLIC_DOMAIN=\"$domain_name\" >> .env
+
+      - name: Fetch panel price data from Google Sheet
+        shell: bash
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+          SHEET_ID: ${{ secrets.SHEET_ID }}
+        run: |
+          ./fetch_gsheet_data.sh $SHEET_ID $API_KEY
+
+      - name: Create build
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        run: npm run build
+        
+      - name: Setup Page
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: './build/'
+      - name: Deploy to GitHub Pages
+        if: steps.cacheModified.outputs.cache-hit != 'true'
+        id: deployment
+        uses: actions/deploy-pages@v1
