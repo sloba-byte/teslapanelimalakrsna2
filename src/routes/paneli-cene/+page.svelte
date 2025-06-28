@@ -39,24 +39,6 @@
 	>026 73 11 68</a
 >
 
-<h2 class="flex mt-4 font-medium text-xl">
-	Cena TFH zidnih panela sa skrivenim zavrtnjem, ispuna od poliuretana:
-</h2>
-<PanelPriceTable panelPriceData={data.tfh} />
-
-<h2 class="flex mt-4 font-medium text-xl">
-	Cena TFV zidnih panela sa vidljivim zavrtnjem, ispuna od poliuretana:
-</h2>
-<PanelPriceTable panelPriceData={data.tfv} />
-
-<h2 class="flex mt-4 font-medium text-xl">Cena TK5 krovnih panela, ispuna od poliuretana:</h2>
-<PanelPriceTable panelPriceData={data.tk5} />
-
-<p class="mt-2 flex w-full  tracking-tight text-base-content">
-	Ako vas zanimaju dodatne informacije o cenama sendvič panela, budite slobodni da nas kontaktirate.
-	Vršimo uspešnu prodaju sendvič panela već duži niz godina.
-</p>
-
 <MetaTags
 	title="Sendvič panel cena, krovni paneli cene"
 	titleTemplate="%s | {PUBLIC_DOMAIN}"
