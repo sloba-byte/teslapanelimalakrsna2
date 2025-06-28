@@ -3,7 +3,7 @@
 	import { MetaTags } from 'svelte-meta-tags';
 	import { PUBLIC_DOMAIN, PUBLIC_SITE_URL } from '$env/static/public';
 
-	let imgIds = ['2', '3', '4', '5', '6', '7'];
+	let imgIds = ['3', '4', '5', '6', '7'];
 	let alts = [
 		'baner reklama tesla paneli',
 		'stovarište tesla sendvic panela',
