@@ -122,15 +122,6 @@
 	Pogledajte <a class="underline text-blue-600 hover:text-blue-800" href="{base}/paneli-cene">Cenovnik</a>, za više informacija.
 </p>
 
-<p class="mt-2 w-full tracking-tight text-base-content">
-	S druge strane, imamo <a
-		class="underline text-blue-600 hover:text-blue-800"
-		href="{base}/zidni-paneli/tfv">zidni panel sa vidljivim zavrtnjem</a
-	>
-	ispunjen poliuretanom i samogasivim poliuretanom. Ovde cena počinje od {data.tfv_lowestPrice
-		.priceNoPDV}, odnosno {data.tfv_lowestPrice.price} sa PDVom.
-</p>
-
 <h2 class="flex mt-4 font-medium text-xl">Zidni paneli su za sva vremena</h2>
 <p class="mt-2 flex w-full tracking-tight text-base-content">
 	Činjenica je da zidni paneli predstavljaju trošak za svakog, ali ovo je sigurno investicija u koju
