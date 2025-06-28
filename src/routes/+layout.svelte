@@ -83,7 +83,7 @@
 					</ul>
 				</div>
 				<a href="{base}/paneli-cene" class="btn btn-outline">Paneli cene</a>
-				<a href="{base}/tesla" class="btn btn-outline">Proizvodnja</a>
+				<a href="{base}/alternativa" class="btn btn-outline">Proizvodnja</a>
 				<a href="{base}/prica" class="btn btn-outline">O nama</a>
 				<a href="{base}/kontakt" class="btn btn-outline">Kontakt</a>
 			</div>

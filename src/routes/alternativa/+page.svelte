@@ -7,13 +7,10 @@
 <h1 class="mt-2 text-center text-2xl font font-medium text-base-content">Fabrika i proizvodnja</h1>
 
 <p class="mt-1 tracking-tight text-base-content">
-	Fabrika „TESLA PANELS“ se nalaziti 30 km od Beograda, u modernom industrijskom naselju Šimanovci.
+	Fabrika „ALTERNATIVA“ se nalaziti 30 km od Beograda, u modernom industrijskom naselju Šimanovci.
 </p>
 <p class="mt-1 tracking-tight text-base-content">
-	U njoj je instalirana najsavremenija svetska tehnologija renomiranog italijanskog proizvođača
-	mašina za proizvodnju sendvič panela, sa kapacitetima preko 3 000 000 m2/godišnje u PIR i PUR
-	tehnologiji, i u drugoj fazi razvoja će biti instalirana i oprema za proizvodnju panela od
-	MINERALNE VUNE, kapaciteta preko 1 000 000 m2/godišnje.
+	Kao lider na tržištu u domenu termoizolacionih panela i profilisanih limova, Alternativa d.o.o. je uspostavila visoke tržišne strandarde u korištenju sirovina i opreme na kojoj se vrši proizvodnja. 
 </p>
 
 <h2 class="mt-2 text-center text-2xl tracking-tight text-base-content text-red-600">Kvalitet</h2>
@@ -76,10 +73,6 @@
 	računa o širini fuga, dilatacijama, spojevima.
 </p>
 
-<p class="mt-1 tracking-tight text-base-content">
-	Za čuvanje, transport i ugradnju fasadnih i krovnih panela bi trebalo poštovati tehnička uputstva
-	i smernice TESLA PANELS.
-</p>
 <p class="tracking-tight text-base-content">Posebno uzeti u obzir da:</p>
 
 <ol class="list-decimal tracking-tight text-base-content pl-1 mt-1">
@@ -97,14 +90,14 @@
 	<a
 		rel="noreferrer"
 		target="_blank"
-		href="https://www.teslapanels.rs/"
-		class="btn btn-active btn-primary">Tesla paneli</a
+		href="https://alternativa.co.rs/"
+		class="btn btn-active btn-primary">Alternativa paneli</a
 	>
 </p>
 
 <MetaTags
-	title="Tesla panel, Tesla paneli"
+	title="Alternativa panel, Alternativa paneli"
 	titleTemplate="%s | {PUBLIC_DOMAIN}"
-	description="Uz Tesla panele mesečni računi su niži! Njima možete grejati svoj dom i smanjiti upotrebu električne energije. Investicija koja se isplati. Posetite naš sajt."
-	canonical="{PUBLIC_SITE_URL}/tesla"
+	description="Uz Alternativa panele mesečni računi su niži! Njima možete grejati svoj dom i smanjiti upotrebu električne energije. Investicija koja se isplati. Posetite naš sajt."
+	canonical="{PUBLIC_SITE_URL}/alternativa"
 />
