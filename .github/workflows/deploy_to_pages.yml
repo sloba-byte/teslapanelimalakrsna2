@@ -65,10 +65,10 @@ jobs:
       - name: Setup Page
         uses: actions/configure-pages@v2
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v2
         with:
           # Upload entire repository
           path: './build/'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v2
