@@ -21,9 +21,6 @@ https://teslapaneli.rs/zidni-paneli/tfv
 const zidni_paneli_url: string = PUBLIC_SITE_URL + "/zidni-paneli"
 const krovni_paneli_url = PUBLIC_SITE_URL + "/krovni-paneli"
 const paneli_cene_url = PUBLIC_SITE_URL + "/paneli-cene"
-const tk5_url = PUBLIC_SITE_URL + "/krovni-paneli/tk5"
-const tfh_url = PUBLIC_SITE_URL + "/zidni-paneli/tfh"
-const tfv_url = PUBLIC_SITE_URL + "/zidni-paneli/tfv"
 
 function getPriority(url: string) {
     switch (url) {
@@ -31,9 +28,6 @@ function getPriority(url: string) {
         case zidni_paneli_url: return "0.9"
         case krovni_paneli_url: return "0.9"
         case paneli_cene_url: return "0.9"
-        case tk5_url: return "0.8"
-        case tfh_url: return "0.8"
-        case tfv_url: return "0.8"
 
         default: return "0.7"
     }

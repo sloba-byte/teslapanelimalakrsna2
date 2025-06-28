@@ -38,14 +38,7 @@
 						class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
 					>
 						<li><a href="{base}/zidni-paneli">Zidni Paneli</a></li>
-						<ul class="px-3">
-							<li><a href="{base}/zidni-paneli/tfh">TFH</a></li>
-							<li><a href="{base}/zidni-paneli/tfv">TFV</a></li>
-						</ul>
 						<li><a href="{base}/krovni-paneli">Krovni Paneli</a></li>
-						<ul class="px-3">
-							<li><a href="{base}/krovni-paneli/tk5">TK5</a></li>
-						</ul>
 						<li><a href="{base}/paneli-cene">Paneli cene</a></li>
 						<li><a href="{base}/alternativa">Proizvodnja Tesla</a></li>
 						<li><a href="{base}/prica">O nama</a></li>
