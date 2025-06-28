@@ -10,7 +10,7 @@
 				<a href="{base}/" class="hidden lg:flex">
 					<img
 						alt="Vizit karta Auto Šopa"
-						src="{base}/vizitka.webp"
+						src="{base}/vizitka.png"
 						width="250px"
 						height="150px"
 						style="border: 1px solid black"
