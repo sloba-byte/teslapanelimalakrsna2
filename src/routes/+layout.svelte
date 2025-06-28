@@ -98,7 +98,7 @@
 						height="100px"
 						width="150px"
 						alt="Lokacija Auto Šopa"
-						src="{base}/tesla_paneli_logo.webp"
+						src="{base}/alternativa_logo.png"
 					/>
 				</a>
 				<p class="font-semibold">Auto Šop Mala Krsna<br />Prodaja sendvič panela</p>
