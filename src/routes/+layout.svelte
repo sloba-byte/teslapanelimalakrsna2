@@ -55,33 +55,8 @@
 				<a href="{base}/" class="lg:hidden font-semibold">Auto Šop Sendvič Paneli</a>
 			</div>
 			<div class="navbar-end space-x-2 hidden lg:flex">
-				<div class="dropdown dropdown-end">
-					<!-- svelte-ignore a11y-label-has-associated-control -->
-					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-					<label tabindex="0" class="btn btn-outline">Zidni paneli</label>
-					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-					<ul
-						tabindex="0"
-						class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
-					>
-						<li><a href="{base}/zidni-paneli">Informacije</a></li>
-						<li><a href="{base}/zidni-paneli/tfh">TFH</a></li>
-						<li><a href="{base}/zidni-paneli/tfv">TFV</a></li>
-					</ul>
-				</div>
-				<div class="dropdown dropdown-end">
-					<!-- svelte-ignore a11y-label-has-associated-control -->
-					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-					<label tabindex="0" class="btn btn-outline">Krovni paneli</label>
-					<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
-					<ul
-						tabindex="0"
-						class="menu dropdown-content p-2 shadow bg-base-100 rounded-box w-52 mt-4"
-					>
-						<li><a href="{base}/krovni-paneli">Informacije</a></li>
-						<li><a href="{base}/krovni-paneli/tk5">TK5</a></li>
-					</ul>
-				</div>
+				<a href="{base}/zidni-paneli" class="btn btn-outline">Zidni panel</a>
+				<a href="{base}/krovni-paneli" class="btn btn-outline">Krovni paneli</a>
 				<a href="{base}/paneli-cene" class="btn btn-outline">Paneli cene</a>
 				<a href="{base}/alternativa" class="btn btn-outline">Proizvodnja</a>
 				<a href="{base}/prica" class="btn btn-outline">O nama</a>

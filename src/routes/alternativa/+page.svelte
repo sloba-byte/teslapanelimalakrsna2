@@ -7,10 +7,7 @@
 <h1 class="mt-2 text-center text-2xl font font-medium text-base-content">Fabrika i proizvodnja</h1>
 
 <p class="mt-1 tracking-tight text-base-content">
-	Fabrika „ALTERNATIVA“ se nalaziti 30 km od Beograda, u modernom industrijskom naselju Šimanovci.
-</p>
-<p class="mt-1 tracking-tight text-base-content">
-	Kao lider na tržištu u domenu termoizolacionih panela i profilisanih limova, Alternativa d.o.o. je uspostavila visoke tržišne strandarde u korištenju sirovina i opreme na kojoj se vrši proizvodnja. 
+	Fabrika „ALTERNATIVA“ je lider na tržištu u domenu termoizolacionih panela i profilisanih limova. Alternativa d.o.o. je uspostavila visoke tržišne strandarde u korištenju sirovina i opreme na kojoj se vrši proizvodnja. 
 </p>
 
 <h2 class="mt-2 text-center text-2xl tracking-tight text-base-content text-red-600">Kvalitet</h2>
@@ -26,33 +23,6 @@
 		dobavljača, što garantuje visoki kvalitet i karakteristike proizvoda.
 	</p>
 </div>
-
-<h2 class="mt-2  text-2xl tracking-tight text-base-content">
-	Visok kvalitet, pouzdanost i sigurnost postižemo usaglašenošću sa sledećim standardima:
-</h2>
-
-<ol class="list-decimal tracking-tight text-base-content pl-1 mt-2">
-	<li>
-		<strong class="text-red-600 font-medium">EN 14509:2014</strong> evropski standard koji definiše kvalitet
-		proizvodnje, kvalitet proizvedenog panela i bezbednost panela za upotrebu.
-	</li>
-	<li>
-		<strong class="text-red-600 font-medium">ISO 9001:2015</strong> međunarodno priznat standard koji
-		daje okvir za sprovođenje sistema upravljanja kvalitetom.
-	</li>
-	<li>
-		<strong class="text-red-600 font-medium">ISO 14001:2015</strong> međunarodni standard koji zahteva
-		od organizacija da se bave pitanjima životne sredine.
-	</li>
-	<li>
-		<strong class="text-red-600 font-medium">ISO 45001:2018</strong> sistem upravljanja bezbednošću i
-		zdravljem na radu.
-	</li>
-	<li>
-		<strong class="text-red-600 font-medium">ISO/IEC 27001:2013</strong> sistemi upravljanja bezbednošću
-		informacija.
-	</li>
-</ol>
 
 <h3 class="mt-2 text-3xl tracking-tight text-base-content">Jako je bitno znati:</h3>
 
