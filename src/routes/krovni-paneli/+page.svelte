@@ -75,16 +75,6 @@
 	> možete videti dodatne karakteristike naših krovnih panela (debljinu, dužinu i širinu) i tako utvrditi
 	koliko bi vas koštao željeni krovni panel.
 </p>
-<p class="mt-2  w-full  tracking-tight text-base-content">
-	Kada je u pitanju <a
-		class="underline text-blue-600 hover:text-blue-800"
-		href="{base}/krovni-paneli/tk5">TK5 krovni panel</a
-	>
-	cene na našem sajtu su vam istaknute bez i sa PDV-om, tako da možete tačno izračunati koliko bi vas
-	on koštao. Najniza cena krovnog panela po m2 bez PDV-a iznosi {data.priceNoPDV}
-	evra, odnosno {data.price} evra ukljucujuci PDV. Ukupna cena panela naravno zavisice od dimenzija krovnog
-	panela za koji se odlučite kao i tipa.
-</p>
 
 <h2 class="flex mt-4 font-medium text-xl">Krovni paneli su investicija koja se isplati</h2>
 <p class="mt-2 flex w-full  tracking-tight text-base-content">

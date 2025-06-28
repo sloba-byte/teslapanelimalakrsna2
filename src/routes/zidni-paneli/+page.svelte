@@ -119,12 +119,7 @@
 </p>
 
 <p class="mt-2 w-full tracking-tight text-base-content">
-	Što se tiče naših sendvič zidnih panela cena po m² iznosi {data.tfh_lowestPrice.priceNoPDV},
-	odnosno {data.tfh_lowestPrice.price} evra sa PDVom, zavisno od toga za koji model se odlučite. Ovaj
-	cenovnik se odnosi na
-	<a class="underline text-blue-600 hover:text-blue-800" href="{base}/zidni-paneli/tfh"
-		>zidni panel sa skrivenim zavrtnjem</a
-	>, koji je ispunjen poliuretanom.
+	Pogledajte <a class="underline text-blue-600 hover:text-blue-800" href="{base}/paneli-cene">Cenovnik</a>, za više informacija.
 </p>
 
 <p class="mt-2 w-full tracking-tight text-base-content">
