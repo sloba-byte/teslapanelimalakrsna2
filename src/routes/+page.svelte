@@ -10,7 +10,7 @@
 		'stovarište sendvic panela alternativa',
 		'bager nosi sendvic panele',
 		'stovariste sendvic panela alternativa',
-		'slaganje sendvic panela'alternativa
+		'slaganje sendvic panela'
 	];
 </script>
 
