@@ -40,7 +40,7 @@
 						<li><a href="{base}/zidni-paneli">Zidni Paneli</a></li>
 						<li><a href="{base}/krovni-paneli">Krovni Paneli</a></li>
 						<li><a href="{base}/paneli-cene">Paneli cene</a></li>
-						<li><a href="{base}/alternativa">Proizvodnja Tesla</a></li>
+						<li><a href="{base}/alternativa">Proizvodnja Alternativa</a></li>
 						<li><a href="{base}/prica">O nama</a></li>
 						<li><a href="{base}/kontakt">Kontakt</a></li>
 					</ul>

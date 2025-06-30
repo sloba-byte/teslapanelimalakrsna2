@@ -25,6 +25,6 @@
 <MetaTags
 	title="O Auto Šopu, Mala Krsna"
 	titleTemplate="%s | {PUBLIC_DOMAIN}"
-	description="Tesla panels - Auto Šop se dugi niz godina bavi uslužnom delatnosću. Pružamo vam kvalitet i brzu uslugu. Kontaktirajte nas za više informacija."
+	description="Alternativa panels - Auto Šop se dugi niz godina bavi uslužnom delatnosću. Pružamo vam kvalitet i brzu uslugu. Kontaktirajte nas za više informacija."
 	canonical="{PUBLIC_SITE_URL}/prica"
 />

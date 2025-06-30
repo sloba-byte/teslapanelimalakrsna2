@@ -42,6 +42,6 @@
 <MetaTags
 	title="Sendvič panel cena, krovni paneli cene"
 	titleTemplate="%s | {PUBLIC_DOMAIN}"
-	description="Povoljne cene sendvič panela na našem sajtu. Pružamo vam kvalitetne krovne, zidne i Tesla panele po pristupačnim cenama. Saznajte više na našem sajtu."
+	description="Povoljne cene sendvič panela na našem sajtu. Pružamo vam kvalitetne krovne, zidne panele po pristupačnim cenama. Saznajte više na našem sajtu."
 	canonical="{PUBLIC_SITE_URL}/paneli-cene"
 />

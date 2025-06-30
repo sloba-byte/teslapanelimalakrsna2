@@ -5,17 +5,17 @@
 
 	let imgIds = ['3', '4', '5', '6', '7'];
 	let alts = [
-		'baner reklama tesla paneli',
-		'stovarište tesla sendvic panela',
-		'stovarište sendvic panela tesla',
+		'baner reklama alternativa paneli',
+		'stovarište alternativa sendvic panela',
+		'stovarište sendvic panela alternativa',
 		'bager nosi sendvic panele',
-		'stovariste sendvic panela tesla',
-		'slaganje sendvic panela'
+		'stovariste sendvic panela alternativa',
+		'slaganje sendvic panela'alternativa
 	];
 </script>
 
 <h1 class="mt-2 text-center text-2xl font-medium tracking-tight text-base-content">
-	Prodaja tesla sendvič panela - Auto Šop Mala Krsna
+	Prodaja alternativa sendvič panela - Auto Šop Mala Krsna
 </h1>
 
 <h2 class="mt-2 text-center text-2xl tracking-tight text-base-content">
